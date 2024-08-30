@@ -19,3 +19,5 @@ jobs:
         pwd
         ls /home
         df -h 
+    - name: Home Dir
+      run: ls -l /home/runner
