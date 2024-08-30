@@ -14,3 +14,8 @@ jobs:
     steps:
     - name: Run ID command
       run: id
+    - name: Filesystem
+      run: |
+        pwd
+        ls /home
+        df -h 
